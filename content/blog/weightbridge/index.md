@@ -3,6 +3,7 @@ title = "Stop Waiting for Weights: Efficient RL Updates with WeightBridge"
 date = 2026-10-27T12:00:00-04:00
 draft = true
 author = "Xuanlin Jiang"
+bio = "Xuanlin Jiang is a second-year PhD student in Computer Science at Harvard University, advised by Prof. Minlan Yu. His research focuses on systems for machine learning. He earned a B.S. in Computer Science from Peking University and has published work at MLSys and in ACM Transactions on Computer Systems (TOCS). His current research focuses on building systems for reinforcement learning for large language models."
 tags = ["LLM", "systems", "performance"]
 summary = "WeightBridge automatically bridges trainer and rollout layouts and reduces GPU stall time during RL weight updates by up to 42×."
 tldr = "WeightBridge is an efficient weight-transfer library for LLM reinforcement learning across **diverse models, trainer–rollout layouts, and synchronization modes**. It automatically discovers trainer–rollout weight correspondence, plans non-redundant and load-balanced transfers, and coordinates workers across synchronization modes. WeightBridge reduces **average GPU stall time per weight update by up to 42×** over Miles’ native mechanisms. A coding agent integrated it into Miles in **24.5 minutes of active work** using only generic integration documentation."
